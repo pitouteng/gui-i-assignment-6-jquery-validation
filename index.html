@@ -9,26 +9,31 @@ gui i - a7 -->
 
   <title>Assignment 6</title>
 
+  <!-- linking bootstrap and my css file -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
 <body>
+  <!-- title -->
   <h4>Multplication Table - Enter range number in no order</h4>
   <p>&copy; 2019 Pitou Teng</p>
   <form id="myForm" name="mult">
+    <!-- Multiplier section -->
   Multiplier:<br>
   <input type="text" name="first_box_multiplier" class="form-control col-sm-3">
   <input type="text" name="sec_box_multiplier" class="form-control col-sm-3">
   <br>
+    <!-- multiplicand section -->
   Multiplicand  :
   <input type="text" name="first_box_multiplicand" class="form-control col-sm-3">
   <input type="text" name="sec_box_multiplicand" class="form-control col-sm-3">
   <br>
   <input id="submit" type="button" value="Submit" class="btn btn-primary">
   </form>
-  
+
+  <!-- linking jquery, jquery validation and my javscript file -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js" integrity="sha256-sPB0F50YUDK0otDnsfNHawYmA5M0pjjUf4TvRJkGFrI=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
