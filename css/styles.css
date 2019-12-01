@@ -1,0 +1,33 @@
+/* name: Pitou Teng
+email: pitou_teng@student.uml.edu
+gui i - a7 */
+
+/* add background color and margin */
+body{
+  background-color: #7FC6B6;
+  margin: 30px;
+}
+
+/* add some margin */
+table{
+  margin-top: 30px;
+}
+
+th{
+  background-color: #E27D60;
+}
+td{
+  background-color: #85CDCA;
+}
+
+/* rule for check pattern on multiplication table */
+.evenRow td:nth-child(2n+0),
+.oddRow td:nth-child(2n+1){
+  background: #ECAD81;
+}
+
+label.error {
+  font-size: smaller;
+  color: #a94442;
+  border-color: #ebccd1;
+}
