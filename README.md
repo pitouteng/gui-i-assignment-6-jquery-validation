@@ -1,4 +1,4 @@
-# using ui jquery slider and tab
-GUI I - Assignment 8
+# intro to jquery
+GUI I - Assignment 7
 
-adding on assingment 7 using slider and tabs from jqueryui 
+add jquery validation to previous assignment 6
